@@ -1,0 +1,16 @@
+# Virtual Environments
+neural-backend/venv/
+venv/
+*.pyc
+__pycache__/
+
+# Dependencies
+neural-frontend/node_modules/
+
+# Large Model Weights (Keep code clean; store weights via Google Drive/Release assets)
+*.pth
+
+# Build outputs & logs
+neural-frontend/dist/
+*.log
+.DS_Store
