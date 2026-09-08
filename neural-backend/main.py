@@ -26,7 +26,7 @@ WEIGHTS_PATH = "weights/best_siamese_resnet18.pth"
 model.load_state_dict(torch.load(WEIGHTS_PATH, map_location=device))
 model.eval()
 
-OPTIMAL_THRESHOLD = 0.0987
+OPTIMAL_THRESHOLD = 1.3671
 
 transform = transforms.Compose([
     transforms.Resize((224, 224)),
